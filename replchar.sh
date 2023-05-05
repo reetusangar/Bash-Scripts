@@ -3,6 +3,8 @@
 echo "Enter the file path on shared server"
 read path
 echo -e
-echo "The path is " $path | tr '/' '\'
+echo "The path is " 
+echo $path | tr '/' '\'
+echo -e
 # to make the script executible from the desktop, change the extention to .command and chmod 744
 # For example chmod 744 replchar.command
